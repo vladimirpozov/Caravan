@@ -1,0 +1,41 @@
+.company{
+    position: relative;
+    background: url('../img/background-karavan.png') center (center/cover) no-repeat;
+}
+.company__bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: rgba(0,0,0, 0.7);
+}
+.company__wrapper-header{
+    position: relative;
+    padding-top: 26px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.assortment{
+    position: relative;
+    margin-top: 52px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.assortiment-item-flex-end{
+    align-self: flex-end;
+}
+
+.assortiment-item-text-center{
+    text-align: center;
+}

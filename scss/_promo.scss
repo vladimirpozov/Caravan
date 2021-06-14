@@ -1,0 +1,58 @@
+.promo{
+    position: relative;
+    background: url('../img/background-karavan.png') center (center/cover) no-repeat;
+}
+
+.promo__wrapper{
+    display: flex;
+}
+
+
+.info{
+    margin-top: 105px;
+    font-size: 26px;
+    font-weight: 900;
+}
+.info__link{
+    list-style-type: none;
+    margin-top: 45px;
+    a{
+        text-decoration: none;
+        font-size: 22px;
+        color: #000;
+    }
+}
+
+.logo{
+    max-width: 525px;
+    height: 400px;
+    img{
+        width: 100%;
+    };
+}
+
+.price{
+    flex: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: 160px;
+}
+
+.price__item{
+    margin-top: 20px;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+}
+.price__item-save{
+    padding-top: 145px;
+    padding-bottom: 10px;
+    align-self: flex-end;
+    font-size: 16px;
+    text-align: center;
+}
+

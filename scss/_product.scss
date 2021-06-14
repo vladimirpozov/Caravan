@@ -1,0 +1,68 @@
+.product{
+    background: url('../img/background-karavan.png') center center
+
+}
+
+.product-company__wrapper-header{
+    color: #111;
+}
+.product__container-slide{
+    display: flex;
+    align-items: center;
+}
+
+
+.product__slider-item {
+    cursor: pointer;
+    width: 30%;
+    margin: 0 5px 0 5px;
+    list-style-type: none;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    opacity: 0.4;
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 40vh;
+        border-radius: 30px;
+        border: solid 1px rgb(54, 53, 53);
+    }
+}
+
+.product__slider-item_active{
+    width: 100%;
+}
+
+.active{
+    width: 100%;
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+.product__container-slide{
+    margin-top: 40px;
+}
+
+.product__cotainer-description{
+    margin-top: 30px;
+    max-width: 300px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.product__text{
+    line-height: 30px;
+}
+
+.slide-wrapper{
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.slide-wrapper-second{
+    display: flex;
+    justify-content: flex-start;
+    max-width:400px;
+    margin-left: 9%;
+}

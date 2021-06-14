@@ -1,0 +1,49 @@
+.contact{
+    position: relative;
+    background: url('../img/background-karavan.png') center center;
+    height: 100vh;
+}
+
+
+.conact__bg{
+    margin-top: 100px; 
+    position: absolute;
+    top: 0 ;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.contact__header{
+    padding-top: 80px;
+    text-align: center;
+    color: #FFF;
+    font-size: 25px;
+}
+.contact__wrapper{
+    align-self: flex-start;
+    padding: 104px 0 0 170px;
+    color: #fff;
+    font-size: 23px;
+}
+
+.contact__work-time{
+    text-align: center;
+}
+.contact__work-time-pr{
+    margin-top: 76px;
+    text-align: center;
+}
+.contact__map{
+    position: absolute;
+    right: 5%;
+    top: 25%;    
+    border: solid 4px rgb(224, 203, 203);
+    border-radius: 20px;
+    overflow: hidden;
+}
